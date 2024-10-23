@@ -1,6 +1,10 @@
 import "./style.css"
+import { useState } from 'react'
 
-export default function Square() {
-    return <button className="square">X</button>;
+// пропсы
+// props = {value: '', }
+
+export default function Square({ value, onSquareClick }) {
+
+    return (<button className="square" onClick={onSquareClick}>{value}</button>);
 }
-

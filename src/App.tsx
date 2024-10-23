@@ -1,18 +1,10 @@
 import './App.css'
-import Square from './components/Square'
-import Row from './components/Row'
+import Board from './components/Board'
+import Game from './components/Game'
 
 function App() {
-
-
   return (
-    <>
-      <div>
-        <Row></Row>
-        <Row></Row>
-        <Row></Row>
-      </div>
-    </>
+    <Game></Game>
   )
 }
 
