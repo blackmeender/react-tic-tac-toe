@@ -1,4 +1,5 @@
 import Square from "../Square"
+import "./style.css"
 
 
 function calculateWinner(squares) {
